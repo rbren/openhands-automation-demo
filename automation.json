@@ -1,0 +1,23 @@
+{
+    "id": "607a3a63-7b92-405c-8ae1-228a0dae21fe",
+    "user_id": "c1a96d89-eae7-53bd-86ad-07f26266402b",
+    "org_id": "46d09c5c-7d7d-585f-8c37-a6b45a3de738",
+    "model": null,
+    "name": "GitHub PR Reviewer: rbren/rss-parser label ai-review",
+    "prompt": null,
+    "preset_metadata": null,
+    "trigger": {
+        "type": "cron",
+        "schedule": "* * * * *",
+        "timezone": "UTC"
+    },
+    "tarball_path": "oh-internal://uploads/f7a1afdc-7b65-484f-b747-55cc88b1e767",
+    "setup_script_path": null,
+    "entrypoint": "python3 main.py",
+    "timeout": 300,
+    "keep_alive": null,
+    "enabled": true,
+    "last_triggered_at": "2026-08-20T12:32:00.538159Z",
+    "created_at": "2026-08-20T12:29:02Z",
+    "updated_at": "2026-08-20T12:32:00.540897Z"
+}
